@@ -177,7 +177,7 @@ exports.default = _default;
 },{}],"src/index.js":[function(require,module,exports) {
 "use strict";
 
-var _galleryCollectionCreate = _interopRequireDefault(require("./js/gallery-collection-create"));
+var _galleryCollectionCreate = _interopRequireDefault(require("./js/gallery-collection-create.js"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -321,7 +321,7 @@ function onGalleryLoad() {
     img.classList.add('load');
   });
 }
-},{"./js/gallery-collection-create":"src/js/gallery-collection-create.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./js/gallery-collection-create.js":"src/js/gallery-collection-create.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
