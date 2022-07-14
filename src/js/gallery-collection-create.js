@@ -81,4 +81,5 @@
      `;
     }).join('')
  }
-export default galleryResult = createGalleryCollection(galleryItems)
+ const galleryResult = createGalleryCollection(galleryItems)
+export default galleryResult
