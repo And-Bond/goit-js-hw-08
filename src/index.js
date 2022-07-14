@@ -1,4 +1,4 @@
-import galleryResult from "./js/gallery-collection-create";
+import galleryResult from "./js/gallery-collection-create.js";
 
 // const galleryItems = [
 //   {
